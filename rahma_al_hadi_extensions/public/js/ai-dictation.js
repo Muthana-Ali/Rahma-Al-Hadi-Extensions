@@ -1,6 +1,6 @@
 frappe.ui.form.on("AI Dictation Test", {
 	refresh: function (frm) {
-		frm.add_custom_button("Start Voice Transcription", function () {
+		frm.add_custom_button(__("Start Voice Transcription"), function () {
 			// Check if the browser supports MediaRecorder
 			if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
 				frappe.msgprint(__("Your browser does not support audio recording."));
@@ -14,7 +14,7 @@ frappe.ui.form.on("AI Dictation Test", {
 					const mediaRecorder = new MediaRecorder(stream);
 					const audioChunks = [];
 
-					frappe.msgprint(__('Recording started. Click "Stop Recording" to finish.'));
+					frappe.msgprint(__("Recording started. Click 'Stop Recording' to finish."));
 
 					mediaRecorder.ondataavailable = (event) => {
 						audioChunks.push(event.data);
@@ -53,7 +53,7 @@ frappe.ui.form.on("AI Dictation Test", {
 					mediaRecorder.start();
 
 					// Add a button to stop the recording
-					frm.add_custom_button("Stop Recording", function () {
+					frm.add_custom_button(__("Stop Recording"), function () {
 						mediaRecorder.stop();
 						frappe.msgprint(__("Recording stopped. Processing transcription..."));
 					});
