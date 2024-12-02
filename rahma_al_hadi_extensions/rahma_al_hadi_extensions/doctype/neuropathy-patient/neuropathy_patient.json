@@ -1,0 +1,397 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-29 09:47:25.342072",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "more_information_section",
+  "ethnicity",
+  "clinical_diagnosis",
+  "chief_complaint",
+  "present_illness",
+  "past_history",
+  "underlying_diseases",
+  "medication",
+  "steroid",
+  "developmental_history",
+  "family_history",
+  "parental_consanguinity",
+  "neuromuscular_disease",
+  "physical_examination_section",
+  "height_in_cm",
+  "skin_abnormality",
+  "chest_deformity",
+  "high_arched_palate",
+  "respiratory_insufficiency",
+  "respiratory_insufficiency_copy",
+  "column_break_qktr",
+  "weight_in_kg",
+  "spine_deformity",
+  "joint_contracture",
+  "minor_anomaly",
+  "mechanical_ventilation",
+  "minor_anomaly_copy_copy",
+  "neurological_findings_section",
+  "intelligence",
+  "cranial_nerve",
+  "facial_muscle_involvement",
+  "dysphagia",
+  "dysphagia_copy",
+  "muscle_atrophy",
+  "muscle_atrophy_copy",
+  "strength_fluctuation",
+  "neck_movement_limitation",
+  "neck_movement_limitation_copy",
+  "sensory_system",
+  "fundus_examination",
+  "column_break_aqcn",
+  "cognitive_function",
+  "ophthalmoplegia",
+  "dysarthria__dysphonia",
+  "walking",
+  "motor_system_grip_power_copy",
+  "muscle_hypertrophy",
+  "muscle_hypertrophy_copy",
+  "myalgia",
+  "dtr",
+  "dtr_copy",
+  "autonomic_system",
+  "fundus_examination_others",
+  "laboratory_result_section",
+  "emg",
+  "ncsrns"
+ ],
+ "fields": [
+  {
+   "fieldname": "more_information_section",
+   "fieldtype": "Section Break",
+   "label": "More information"
+  },
+  {
+   "columns": 1,
+   "fieldname": "ethnicity",
+   "fieldtype": "Data",
+   "label": "Ethnicity"
+  },
+  {
+   "fieldname": "clinical_diagnosis",
+   "fieldtype": "Data",
+   "label": "Clinical diagnosis "
+  },
+  {
+   "fieldname": "chief_complaint",
+   "fieldtype": "Data",
+   "label": "Chief complaint"
+  },
+  {
+   "fieldname": "present_illness",
+   "fieldtype": "Long Text",
+   "label": "Present illness"
+  },
+  {
+   "fieldname": "past_history",
+   "fieldtype": "Long Text",
+   "label": "Past history"
+  },
+  {
+   "fieldname": "underlying_diseases",
+   "fieldtype": "Data",
+   "label": "Underlying disease(s)"
+  },
+  {
+   "description": "( N / Y name and period used )",
+   "fieldname": "medication",
+   "fieldtype": "Data",
+   "label": "Medication"
+  },
+  {
+   "description": "( N / Y name and period used)",
+   "fieldname": "steroid",
+   "fieldtype": "Data",
+   "label": "Steroid"
+  },
+  {
+   "description": "( Normal & Abnormal )",
+   "fieldname": "developmental_history",
+   "fieldtype": "Data",
+   "label": "Developmental history"
+  },
+  {
+   "fieldname": "family_history",
+   "fieldtype": "Long Text",
+   "label": "Family history"
+  },
+  {
+   "description": "N/Y",
+   "fieldname": "parental_consanguinity",
+   "fieldtype": "Data",
+   "label": "Parental consanguinity "
+  },
+  {
+   "description": "N/Y",
+   "fieldname": "neuromuscular_disease",
+   "fieldtype": "Data",
+   "label": "Neuromuscular disease"
+  },
+  {
+   "fieldname": "physical_examination_section",
+   "fieldtype": "Section Break",
+   "label": "Physical examination"
+  },
+  {
+   "fieldname": "height_in_cm",
+   "fieldtype": "Data",
+   "label": "Height In cm"
+  },
+  {
+   "description": " ",
+   "fieldname": "skin_abnormality",
+   "fieldtype": "Data",
+   "label": "Skin abnormality "
+  },
+  {
+   "description": "( N pigeon funnel )",
+   "fieldname": "chest_deformity",
+   "fieldtype": "Data",
+   "label": "Chest deformity"
+  },
+  {
+   "description": "( N /Y narrow wide )",
+   "fieldname": "high_arched_palate",
+   "fieldtype": "Data",
+   "label": "High arched palate"
+  },
+  {
+   "description": "( N /Y narrow wide )",
+   "fieldname": "respiratory_insufficiency",
+   "fieldtype": "Data",
+   "label": "Respiratory insufficiency"
+  },
+  {
+   "description": "( N /Y narrow wide )",
+   "fieldname": "respiratory_insufficiency_copy",
+   "fieldtype": "Data",
+   "label": "Respiratory insufficiency Copy"
+  },
+  {
+   "fieldname": "column_break_qktr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "weight_in_kg",
+   "fieldtype": "Data",
+   "label": "Weight In kg"
+  },
+  {
+   "description": "(N lordosis scoliosis )",
+   "fieldname": "spine_deformity",
+   "fieldtype": "Data",
+   "label": "Spine deformity"
+  },
+  {
+   "description": "( N / Y site )",
+   "fieldname": "joint_contracture",
+   "fieldtype": "Data",
+   "label": "Joint contracture"
+  },
+  {
+   "description": "( N / Y site )",
+   "fieldname": "minor_anomaly",
+   "fieldtype": "Data",
+   "label": "Minor anomaly"
+  },
+  {
+   "description": "( N / Y since NPPV or TPPV ",
+   "fieldname": "mechanical_ventilation",
+   "fieldtype": "Data",
+   "label": "Mechanical ventilation"
+  },
+  {
+   "description": "( N / Y site )",
+   "fieldname": "minor_anomaly_copy_copy",
+   "fieldtype": "Data",
+   "label": "Minor anomaly Copy Copy"
+  },
+  {
+   "fieldname": "neurological_findings_section",
+   "fieldtype": "Section Break",
+   "label": "Neurological findings"
+  },
+  {
+   "description": "( Normal borderline low ) ",
+   "fieldname": "intelligence",
+   "fieldtype": "Data",
+   "label": "Intelligence"
+  },
+  {
+   "description": "Ptosis ( N/Y ) ",
+   "fieldname": "cranial_nerve",
+   "fieldtype": "Data",
+   "label": "Cranial nerve"
+  },
+  {
+   "description": "( N/Y ) ",
+   "fieldname": "facial_muscle_involvement",
+   "fieldtype": "Data",
+   "label": "Facial muscle involvement"
+  },
+  {
+   "description": "( N/Y ) ",
+   "fieldname": "dysphagia",
+   "fieldtype": "Data",
+   "label": "Dysphagia"
+  },
+  {
+   "description": "( Kg )",
+   "fieldname": "dysphagia_copy",
+   "fieldtype": "Data",
+   "label": "Motor system Grip power R"
+  },
+  {
+   "description": "( N/Y )",
+   "fieldname": "muscle_atrophy",
+   "fieldtype": "Data",
+   "label": "Muscle atrophy"
+  },
+  {
+   "description": "( N/Y GC tongue other .... )",
+   "fieldname": "muscle_atrophy_copy",
+   "fieldtype": "Data",
+   "label": "Muscle hypertrophy "
+  },
+  {
+   "description": "( N/ Y diurnal within a week within a month )",
+   "fieldname": "strength_fluctuation",
+   "fieldtype": "Data",
+   "label": "Strength fluctuation"
+  },
+  {
+   "description": "( N / Y flexion extension rotation ) ",
+   "fieldname": "neck_movement_limitation",
+   "fieldtype": "Data",
+   "label": "Neck movement limitation"
+  },
+  {
+   "description": "( N / Y ) ",
+   "fieldname": "neck_movement_limitation_copy",
+   "fieldtype": "Data",
+   "label": "Involuntary movement"
+  },
+  {
+   "description": "( normal / abnormal )",
+   "fieldname": "sensory_system",
+   "fieldtype": "Data",
+   "label": "Sensory system"
+  },
+  {
+   "fieldname": "fundus_examination",
+   "fieldtype": "Data",
+   "label": "Fundus examination"
+  },
+  {
+   "fieldname": "column_break_aqcn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "( MMSE HDS-R )",
+   "fieldname": "cognitive_function",
+   "fieldtype": "Data",
+   "label": "Cognitive function"
+  },
+  {
+   "description": "( N/Y )",
+   "fieldname": "ophthalmoplegia",
+   "fieldtype": "Data",
+   "label": "Ophthalmoplegia"
+  },
+  {
+   "description": "( N/Y )",
+   "fieldname": "dysarthria__dysphonia",
+   "fieldtype": "Data",
+   "label": "Dysarthria / dysphonia"
+  },
+  {
+   "description": "( N/ Y possible with assistance tool )",
+   "fieldname": "walking",
+   "fieldtype": "Data",
+   "label": "Walking"
+  },
+  {
+   "description": "( Kg )",
+   "fieldname": "motor_system_grip_power_copy",
+   "fieldtype": "Data",
+   "label": "Motor system Grip power L"
+  },
+  {
+   "description": "( N/Y )",
+   "fieldname": "muscle_hypertrophy",
+   "fieldtype": "Data",
+   "label": "Winged scapula"
+  },
+  {
+   "description": "( N/Y )",
+   "fieldname": "muscle_hypertrophy_copy",
+   "fieldtype": "Data",
+   "label": "Myotonia"
+  },
+  {
+   "description": "(N / Y ........ site\ntime between exercise and onset of myalgia.............\n, after exercise)",
+   "fieldname": "myalgia",
+   "fieldtype": "Data",
+   "label": "Myalgia"
+  },
+  {
+   "description": "( normal \u2193 absent \u2191 )",
+   "fieldname": "dtr",
+   "fieldtype": "Data",
+   "label": "DTR"
+  },
+  {
+   "description": "( N / Y )",
+   "fieldname": "dtr_copy",
+   "fieldtype": "Data",
+   "label": "Cerebellar sign"
+  },
+  {
+   "description": "( normal / abnormal )",
+   "fieldname": "autonomic_system",
+   "fieldtype": "Data",
+   "label": "Autonomic system"
+  },
+  {
+   "fieldname": "fundus_examination_others",
+   "fieldtype": "Data",
+   "label": "Fundus examination Others"
+  },
+  {
+   "fieldname": "laboratory_result_section",
+   "fieldtype": "Section Break",
+   "label": "Laboratory result"
+  },
+  {
+   "fieldname": "emg",
+   "fieldtype": "Attach",
+   "label": "EMG"
+  },
+  {
+   "description": "imaging findings ( send imaging data if possible )",
+   "fieldname": "ncsrns",
+   "fieldtype": "Attach",
+   "label": "NCS/RNS"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-10-30 12:33:20.588395",
+ "modified_by": "Administrator",
+ "module": "Custom App",
+ "name": "Neuropathy Patient",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
